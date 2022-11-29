@@ -1,0 +1,21 @@
+[
+	   {
+		         "id": "hooktest",
+			       "execute-command": "./script.sh",
+			             "command-working-directory": ".",
+				           "response-message": "Executing redeploy web resume container",
+					         "trigger-rule":
+						       {
+							               "match":
+								               {
+										                 "type": "value",
+												           "value": "keygpg",
+													             "parameter":
+														               {
+																                   "source": "url",
+																		               "name": "hook-test"
+																			                 }
+																					         }
+																						       }
+																						           }
+]
