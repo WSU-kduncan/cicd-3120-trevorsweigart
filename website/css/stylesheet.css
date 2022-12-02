@@ -1,0 +1,119 @@
+body{
+    width:99%;
+    font-family:"Open Sans", "sans-serif";
+}
+
+#header{
+    height:50px;
+    background-color:lightgrey;
+}
+
+#logo{
+    position:absolute;
+    top:17.5px;
+    left:75px;
+}
+
+#account{
+    position:absolute;
+    top:8px;
+    right:75px;
+}
+
+#account li{
+    padding:20px;
+    display: inline;
+}
+
+#navigation{
+    position:absolute;
+    top:70px;
+}
+
+#search{
+    position:absolute;
+    border-style:solid;
+    border-width:1px;
+    border-color:lightgrey;
+    width:200px;
+    left:1500px;
+}
+
+#search-image{
+    float:right;
+}
+
+#home{
+    position:absolute;
+    left:65px;
+}
+
+#menu{
+    position:absolute;
+    left:50px;
+    width:1000px;
+    top:-25px;
+    
+}
+
+#menu li{
+    font-weight:bold;
+    color:grey;
+    display:inline-block;
+    padding:15px;
+}
+
+#main{
+    position:absolute;
+    left:65px;
+    top:110px;
+}
+
+#divider{
+    position:absolute;
+    top:550px;
+    left:300px;
+}
+
+#divider li{
+    list-style:none;
+    display:inline-block;
+    padding:7px;
+}
+
+#latest{
+    color:red;
+}
+
+.images{
+    position:absolute;
+    display:inline-block;
+    padding:10px;
+    top:600px;
+    left:340px;
+}
+
+#right-arrow{
+    position:relative;
+    bottom:50px;
+    padding:15px;
+}
+
+#bottom-text{
+    color:grey;
+    position:absolute;
+    top:710px;
+    left:265px;
+}
+
+
+#bottom-text li{
+    display:inline-block;
+    padding:40px;
+    list-style:none;
+}
+
+#small{
+    position:relative;
+    left:10px;
+}
